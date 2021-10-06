@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+head,
+body {
+    height: 100%;
+}
+
+.header {
+    background-color: LimeGreen;
+    height: 80px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+    height: 100%;
+}
+
+.zag a {
+    color: white;
+    font-size: 27px;
+    margin: 0px 0px;
+    text-decoration: none;
+}
+
+.nav,
+.menu,
+.menu-item,
+.menu-item a {
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item > a {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    
+    background-color: #3CB371;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.submenu2 {
+    visibility: hidden;
+    opacity: 0;
+    
+    background-color: #3CB371;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.submenu-item > a {
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 16px;
+    display: inline-block;
+}
+
+.submenu-item2 > a {
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 16px;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.zagolovokOb {
+    font-size: 27px;
+}
+
+
+.content .inner {
+    width: 1000px;
+    background-color: rgba(196, 196, 196, 0.5);
+    padding: 0 30px;
+}
+
+.ob {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.menu-item > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.twomenuitem:hover .submenu2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-item:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu-item > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.submenu-item2 > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}

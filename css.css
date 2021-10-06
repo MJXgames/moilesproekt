@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: LimeGreen;
+    height: 80px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-itemContent,
+.menu-itemContent1,
+.menu-itemContent2,
+.menu-itemContent3 {
+    background-color: #3CB371;
+    width: 315px;
+    height: 470px;
+    border-radius: 8px;
+    color: white;
+}
+
+.menu-itemContent1,
+.menu-itemContent2 {
+    margin-left: 80px;
+}
+
+.element9 {
+    margin: 35px 26.8px 10px 26.8px;
+}
+
+.nazvanie {
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.opredelenie {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 20px;
+    margin: 12px 27px;
+    text-align: center;
+}
+
+.zagolovok1 {
+    margin-top: 64px;
+    font-size: 30px;
+}
+
+.element7 {
+    margin: 0 122px;
+}
+
+.element8 {
+    margin-bottom: 60px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+    height: 100%;
+}
+
+.zag a {
+    color: white;
+    font-size: 27px;
+    margin: 0px 0px;
+    text-decoration: none;
+}
+
+.nav,
+.menu,
+.menu-item,
+.menu-item a {
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item > a {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 24px;
+}
+
+a {
+    transition: 0.3s;
+}
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+
+    background-color: #3CB371;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.submenu2 {
+    visibility: hidden;
+    opacity: 0;
+
+    background-color: #3CB371;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.submenu-item > a {
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 16px;
+    display: inline-block;
+}
+
+.submenu-item2 > a {
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 16px;
+    display: inline-block;
+}
+
+.menu-item > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.twomenuitem:hover .submenu2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu-item:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu-item > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.submenu-item2 > a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
